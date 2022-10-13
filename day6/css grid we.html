@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+height: 450px;
+width: auto;
+background-color: aqua;
+padding-top: 50px;
+padding-left: 60px;
+
+
+        }
+.border{
+    height: 330px;
+    width: 93%;
+    background-color: rgb(29, 27, 27);
+    padding: auto;
+    padding-left: 7px;
+    padding-top: 37px;
+   
+    border-radius: 12px; 
+   
+}
+.key{
+    display:grid;
+    width: 95%;
+    height: 300px;
+    margin: auto;
+    grid-template-columns: repeat(12,1fr);
+    
+    gap: 6px;
+    text-align: center;
+    
+   
+
+  
+
+}
+.key>div{
+    background-color: rgb(40,39,39);
+    font-size: 20px;
+    color: aqua;
+    height: 50px;
+    align-items:center;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#enter,#shift{
+    grid-column-start:11;
+   
+    grid-column-end: 13;
+}
+#space{
+    grid-column-start:5;
+   
+   grid-column-end: 9;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="border">
+    <div class="key">
+    <div>~</div>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>0</div>
+    <div>delete</div>
+    <div>tab</div>
+    <div>q</div>
+    <div>w</div>
+    <div>e</div>
+    <div>r</div>
+    <div>t</div>
+    <div>y</div>
+    <div>u</div>
+    <div>i</div>
+    <div>o</div>
+    <div>p</div>
+    <div>\</div>
+    <div>caps</div>
+    <div>a</div>
+    <div>s</div>
+    <div>d</div>
+    <div>f</div>
+    <div>g</div>
+    <div>h</div>
+    <div>j</div>
+    <div>k</div>
+    <div>l</div>
+    <div id="enter">Enter</div>
+    <div id=>Shift</div>
+    <div>z</div>
+    <div>x</div>
+    <div>c</div>
+    <div>v</div>
+    <div>b</div>
+    <div>n</div>
+    <div>m</div>
+    <div><</div>
+    <div>></div>
+    <div id="shift">Shift</div>
+    <div>Windows</div>
+    <div>ctrl</div>
+    <div>option</div>
+    <div>alt</div>
+    <div id="space">space</div>
+    <div>alt</div>
+    <div>option</div>
+    <div>left arrow</div>
+    <div>right arrow</div>
+</div>
+</div>
+</div>
+</body>
+</html>
