@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+/* Write your styles here  */
+h1,p,h2{
+    text-align: center;
+}
+#doctors{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    width: 80%;
+ margin: auto;
+padding-bottom: 60px;
+
+
+}
+#doctors>div{
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: auto;
+   
+    
+}
+
+#service>div>img{
+
+padding-left:150px;
+}
+/* #doctors>div>button{
+border-radius:25px;
+padding: 5px 5px;
+
+ 
+} */
+#doctors>div>div>div>button{
+    border-radius:25px;
+padding: 5px 5px;
+}
+
+
+
+#service{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:70px;
+    width: 80%;
+ margin: auto;
+
+
+    
+}
+.bn{
+    
+    justify-content: space-around;
+    display: flex;
+gap: 20px;
+padding: 5px;
+}
+.but>button{
+    border: none;
+    background-color: rgb(255, 80, 11);
+    color: white;
+}
+.but1>button{
+    border: none;
+    background-color: rgb(202, 225, 224);
+    color: rgb(31, 124, 238);
+}
+
+/* keep media queries at the bottom */
+/* Medium screens */
+@media all and (min-width: 451px) and (max-width: 750px) {
+    #doctors{
+    grid-template-columns: repeat(2,1fr);
+} 
+#service{
+
+    grid-template-columns: repeat(2,1fr);
+}
+}
+/* Small screens */
+@media all and (min-width: 100px) and (max-width: 450px) {
+    #doctors{
+    grid-template-columns: repeat(1,1fr);
+} 
+#service{
+
+    grid-template-columns: repeat(1,1fr);
+}   
+}
+
+
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Our Specialist</h1>
+      <p>
+        Green above he cattle god saw day multiply under fill in the cattle fowl
+        a all, living, tree<br> word link available in the service for subdue fruit.
+      </p>
+    </div>
+    <!-- Top-section -->
+    <div id="doctors">
+      <!-- This section should have 4 child divs, each div should have image,h3,h6 and div for buttons -->
+      <div>
+        <img src="https://preview.colorlib.com/theme/medino/assets/images/doctor1.jpg.webp" alt="Doctor">
+        <h2>Ethel Devis</h2>
+        <p>Lorem ipsum dolor sit<br>  ametconsectetur adipisicing elit. <br> Voluptatumexplicabo </p>
+
+
+<div class="bn">
+    <div class="but1"><button>Know more</button></div><div  class="but"><button >Book Now</button></div>
+    
+    
+</div>
+</div>
+<div>
+    <img src="https://preview.colorlib.com/theme/medino/assets/images/doctor1.jpg.webp" alt="Doctor">
+    <h2>Ethel Devis</h2>
+    <p>Lorem ipsum dolor sit<br>  ametconsectetur adipisicing elit. <br> Voluptatumexplicabo </p>
+
+
+<div class="bn">
+<div class="but1"><button>Know more</button></div><div  class="but"><button >Book Now</button></div>
+
+
+</div>
+</div>
+<div>
+    <img src="https://preview.colorlib.com/theme/medino/assets/images/doctor1.jpg.webp" alt="Doctor">
+    <h2>Ethel Devis</h2>
+    <p>Lorem ipsum dolor sit<br>  ametconsectetur adipisicing elit. <br> Voluptatumexplicabo </p>
+
+
+<div class="bn">
+<div class="but1"><button>Know more</button></div><div  class="but"><button >Book Now</button></div>
+
+
+</div>
+</div>
+<div>
+    <img src="https://preview.colorlib.com/theme/medino/assets/images/doctor1.jpg.webp" alt="Doctor">
+    <h2>Ethel Devis</h2>
+    <p>Lorem ipsum dolor sit<br>  ametconsectetur adipisicing elit. <br> Voluptatumexplicabo </p>
+
+
+<div class="bn">
+<div class="but1"><button>Know more</button></div><div  class="but"><button >Book Now</button></div>
+
+
+</div>
+</div>
+</div>
+
+
+    <!-- Bottom section  -->
+    <div id="service">
+      <!-- This section should have 6 child divs, each div should have image,h5,p -->
+      <div>
+        <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-04-16/bottom_132437.jpeg" alt="logo">
+        <h2>Teeth Whiteening</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt placeat inventore minus</p>
+      </div>
+ 
+    <div>
+        <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-04-16/bottom_132437.jpeg" alt="logo">
+        <h2>Teeth Whiteening</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt placeat inventore minus, assumenda dolorum expedita?</p>
+      </div>
+      <div>
+        <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-04-16/bottom_132437.jpeg" alt="logo">
+        <h2>Teeth Whiteening</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt placeat inventore minus, assumenda dolorum expedita?</p>
+      </div>
+      <div>
+        <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-04-16/bottom_132437.jpeg" alt="logo">
+        <h2>Teeth Whiteening</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt placeat inventore minus, assumenda dolorum expedita?</p>
+      </div>
+      <div>
+        <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-04-16/bottom_132437.jpeg" alt="logo">
+        <h2>Teeth Whiteening</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt placeat inventore minus, assumenda dolorum expedita?</p>
+      </div>
+      <div>
+        <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-04-16/bottom_132437.jpeg" alt="logo">
+        <h2>Teeth Whiteening</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt placeat inventore minus, assumenda dolorum expedita?</p>
+      </div>
+
+    </div>
+  </body>
+</html>
