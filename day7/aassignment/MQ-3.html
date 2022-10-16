@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.main{
+            display: grid;
+            grid-template-areas:
+                " yellow yellow yellow"
+                "red red green"
+                "red red green2"
+                "red red green3";
+                gap: 20px;
+                font-size: 20px;
+       
+        }
+
+
+.main>div:nth-child(1){
+    background-color:yellow;
+    grid-area: yellow;
+    height:80px;
+
+
+}
+.main>div:nth-child(2){
+    background-color:rgb(255, 28, 28);
+    grid-area: red;
+    height: 340px;
+
+
+
+
+}
+.main>div:nth-child(3){
+    grid-area: green;
+    background-color:green;
+height: 100px;
+    
+
+}
+.main>div:nth-child(4){
+    grid-area: green2;
+    background-color:green;
+    height: 100px;
+
+    
+
+}
+.main>div:nth-child(5){
+    grid-area: green3;
+    background-color:green;
+
+    height: 100px;
+
+}
+
+
+
+        @media all and (min-width: 100px) and (max-width: 600px) {
+            .main {
+                grid-template-areas:
+                    "yellow"
+                    "red"
+                    "green"
+                    "green2"
+                    "green3"
+        }
+    }
+    
+    @media all and (min-width: 601px) and (max-width: 900px) {
+            .main {
+                grid-template-areas:
+                    "yellow yellow yellow"
+                    "red red red"
+                    "green green2 green3" 
+                   
+              
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div>Navigation</div>
+        <div >left box</div>
+        <div >right box1</div>
+        <div >right box2</div>
+        <div >right box3</div>
+    </div>
+</body>
+</html>

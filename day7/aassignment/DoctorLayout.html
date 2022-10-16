@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit2 C2</title>
+    <style>
+      * {
+        margin:auto;
+        padding: 0px;
+      }
+     #works{
+        text-align: center;
+      }
+      #banner{
+        height: 250px;
+        width: 80%;
+        display: flex;
+       
+        margin: auto;
+        border-radius: 15px;
+        background-color: rgb(5, 5, 121);
+        color: white;
+        
+      }
+.first{
+    
+    height: 100%;
+    width: 50%;
+  padding-top: 20px;
+   padding-left:50px ;
+}
+.second{
+   
+    height: 100%;
+    width: 50%;
+
+   
+}
+.second img{width:369px;}
+button{
+    border-radius: 15px;
+    padding: auto;
+    font-size: 15px;
+}
+#services{
+   border: 1px solid red; 
+   height: 250px ;
+   width:80%;
+}
+
+      /* Medium Screen */
+      @media only screen and (min-width: 500px) and (max-width: 768px) {
+      }
+
+      /* Small Screen */
+      @media only screen and (min-width: 320px) and (max-width: 499px) {
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <div id="banner">
+        <div class="first">
+            <h2>you are in safe hands</h2>
+            <p>check the expert end to end surgical care</p>
+            <button>Know more</button>
+        </div>
+        <div class="second">
+            <img  src="https://pngimg.com/uploads/doctor/doctor_PNG16025.png" alt="doctors">
+        </div>
+        <!-- Here should be 2 divs one for the banner heading and button and the second is for banner image -->
+      </div>
+      <div id="services">
+        <div></div>
+        <!-- Here should be 6 divs. All of them should be in a single line for large screen. For medium and large screen refer to question statement -->
+      </div>
+      <div id="works">
+        <h1>Book an appointment for an in-clinic consultation</h1>
+        <p>Find experienced doctors across all specialties</p>
+        <div>
+            <div></div>
+         
+          <!-- Here should be 8 divs. They should be in 4 colums and two rows for large screen.For medium and large screen refer to question statement -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
