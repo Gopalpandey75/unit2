@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            color: rgb(2, 174, 174);
+            font-size: 60px;
+        }
+.upper{
+    /* border: 1px solid red; */
+    height: 400px;
+    width:300px;
+    margin: auto;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.mid{
+    display: grid;
+    /* border: 1px solid blue; */
+    height: 95%;
+    width:90%x;
+    margin: auto;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    
+}
+.mid>div{
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+font-size: 30px;
+}
+.blank{
+    grid-column-start:1;
+   
+   grid-column-end: 5;
+   height: 40px;
+}
+.black{
+    color: white;
+    background-color: black;
+}
+.red{
+    color: white;
+    background-color:red;
+}
+    </style>
+</head>
+<body>
+    <h1>Masai Calculator</h1>
+    <div class="upper">
+        <div class="mid">
+            <div class="blank"></div>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div class="black">+</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div class="black">-</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div class="black">x</div>
+            <div class="red">C</div>
+            <div>0</div>
+            <div class="black">=</div>
+            <div class="black">/</div>
+        </div>
+    </div>
+</body>
+</html>

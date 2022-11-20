@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .head{
+            display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    width: 80%;
+    height: 330px;
+ margin: auto;
+
+border: 2px solid red;
+        }
+        .first{
+            border: 2px solid blue;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            height: auto;
+        }
+        .second{
+            border: 2px solid blue;
+            grid-column-start: 3;
+            grid-column-end: 4; 
+            height: auto;
+        }
+        .second>div{
+            height: 1%;
+        }
+        .first img{
+            width: 100%;
+            height: 100%;
+           
+        }
+        .second img{
+            width: 100%;
+            height: 87%;
+        }
+        .footer{
+            border: 2px solid blue;
+            display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    width: 80%;
+    height: 330px;
+ margin: auto;
+        }
+        .cs{
+           
+            height: 100%;
+            border: 2px solid red;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+        .ds{
+            border: 2px solid blue;
+        
+            height: 100%;
+          
+        }
+.fir{
+    height: 85%;
+    width: 100%;
+            border: 2px solid red;
+            grid-template-columns: repeat(2,1fr);
+}
+.sec{
+    height: 100%;
+    width: 100%;
+            border: 2px solid red;
+            grid-template-columns: repeat(2,1fr);
+}
+.fir img{
+    width: 100%;
+}
+.sec img{
+    width: 100%;
+}
+      
+    </style>
+</head>
+<body>
+    <div class="head">
+       <div class="first">
+        <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-07-26/Screenshot%202022-07-26%20at%208.59.51%20AM_232535.png" alt="">
+       </div> 
+       <div class="second">
+        <div><h4>Top Storys</h4></div>
+        <img  src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-07-26/Screenshot%202022-07-26%20at%209.00.24%20AM_518931.png" alt="">
+       </div>
+       </div>
+       <div class="footer">
+        <div class="text"><h4>Opinion</h4></div>
+        <div class="cs">
+                  
+                  <div class="fir" >
+                    <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-07-26/Screenshot%202022-07-26%20at%209.01.24%20AM_703621.png" alt=""> 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                 </div>
+                 <div class="sec">
+                     <img src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-07-26/Screenshot%202022-07-26%20at%209.01.24%20AM_703621.png" alt=""> 
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                 </div>
+        </div>
+      
+            <div class="ds"></div>
+        </div>
+       
+</body>
+</html>
