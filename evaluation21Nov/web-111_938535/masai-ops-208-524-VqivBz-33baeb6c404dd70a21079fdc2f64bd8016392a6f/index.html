@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web-111 C1</title>
+    <style>
+      @media only screen and (min-width: 451px) and (max-width: 800px) {
+        /* medium screen sizes  */
+        #banner{
+          border: 2px solid red;
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+
+        }
+        .one{
+        border: 2px solid blue;
+        margin: auto;
+       
+      }
+      .two{
+        border: 2px solid blue;
+        margin: auto;
+        
+      }
+      #services{
+        border: 2px solid red;
+        height: auto;
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
+      }
+      #more{
+        border: 2px solid red;
+        height: 300px;
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+   gap: 20px;
+
+      }
+      #more>div{
+        border: 2px solid blue;
+      
+      }
+  
+      }
+      @media only screen and (min-width: 10px) and (max-width: 450px) {
+        /* Small screen sizes  */
+        #banner{
+          border: 2px solid red;
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+
+        }
+        .one{
+        border: 2px solid blue;
+        margin: auto;
+      }
+      .two{
+        border: 2px solid blue;
+        margin: auto;
+      }
+      #services{
+        border: 2px solid red;
+        height: auto;
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+
+      }
+      }
+      /* ------------------------------------------------------------------------- */
+      body{
+        background-color:rgb(185, 182, 182);
+      }
+      #banner{
+        /* border: 2px solid red; */
+        width: 80%;
+        height: auto;
+        display: flex;
+        
+        margin: auto;
+      }
+      .one{
+        /* border: 2px solid blue; */
+        height: 100%;
+        width: 50%;
+      }
+      .two{
+        /* border: 2px solid blue; */
+        height: 100%;
+        width: 50%;
+      }
+      h1,h2,h1+p{
+        text-align: center;
+      }
+      #services{
+        /* border: 2px solid red; */
+        height: auto;
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+
+      }
+      #services>div{
+        /* border: 2px solid blue; */
+      }
+      #more{
+        /* border: 2px solid red; */
+        height: 300px;
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+   gap: 20px;
+
+      }
+      #more>div{
+        /* border: 2px solid blue; */
+        background-color:white;
+        
+      }
+      #banner>button{
+        color:orange;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Build a Website with ease</h1>
+      <p>So You Focus on what matters</p>
+      <div id="banner">
+        <!-- Use flex to create this part. You have two parts here one div for the texts and button and one image  -->
+        <div class="one">
+<h3>Marketers</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Odit omnis non tempore, commodi in autem temporibus, incidunt atque veniam quia,<br> ipsum labore architecto dolores accusantium nam <br>corrupti eveniet aspernatur repellendus?</p>
+<button>Get started free</button>
+<button>Get a demo</button>
+        </div>
+        <div class="two">
+          <img width="100%" src="https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2022-11-16/Screenshot%202022-07-28%20at%2010.41.35%20AM_137675.png" alt="">
+        </div>
+      </div>
+      <h2>Features that make this possible:</h2>
+      <div id="services">
+        <div>
+    <h4>SEO Recommendation</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, facere. Quidem neque illo autem quibusdam recusandae fugiat quis dolores qui.</p>
+        </div>
+        <div>   <h4>SEO Recommendation</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, facere. Quidem neque illo autem quibusdam recusandae fugiat quis dolores qui.</p></div>
+        <div>   <h4>SEO Recommendation</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, facere. Quidem neque illo autem quibusdam recusandae fugiat quis dolores qui.</p></div>
+        <div>   <h4>SEO Recommendation</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, facere. Quidem neque illo autem quibusdam recusandae fugiat quis dolores qui.</p></div>
+        <div>   <h4>SEO Recommendation</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, facere. Quidem neque illo autem quibusdam recusandae fugiat quis dolores qui.</p></div>
+        <div>   <h4>SEO Recommendation</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, facere. Quidem neque illo autem quibusdam recusandae fugiat quis dolores qui.</p></div>
+        <!-- Here You should have 6 children divs. Use grid to create the layout  -->
+      </div>
+      <h2>But wait there is more...</h2>
+      <div id="more">
+        <div>
+          <h4>> Multi-Language content Creation</h4>
+        </div>
+        <div>
+          <h4>>Multi-Language content Creation</h4>
+        </div>
+        <div>
+          <h4>>Multi-Language content Creation</h4>
+        </div>
+        <div>
+          <h4>>Multi-Language content Creation</h4>
+        </div>
+        <div>
+          <h4>>Multi-Language content Creation</h4>
+        </div>
+        <div>
+          <h4>>Multi-Language content Creation</h4>
+        </div>
+        <div>
+          <h4>>Multi-Language content Creation</h4>
+        </div>
+        <div>
+          <h4>>Multi-Language content Creation</h4>
+        </div>
+        <!-- Here You should have 8 children divs. Use grid to create the layout  -->
+      </div>
+    </div>
+  </body>
+</html>
